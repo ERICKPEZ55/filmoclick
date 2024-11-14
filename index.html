@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmoClick</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="multimedia/icono.png" type="image/x-icon">
+</head>
+<body>
+    <!-- cabecera del sitio -->
+    <header>
+        <nav>
+            <a href="index.html"><img src="multimedia/ultimo.png" alt="logo"></a>
+            <ul>
+                <a href="#">Inicio</a>
+                <a href="#planes">Top 5</a>
+                <a href="#destinos">Peliculas</a>
+                <a href="#series">Series</a>
+                <a href="#filtro">filtro</a>
+                <input type="search" placeholder="Qué Ver?" class="buscar">
+                <span></span>
+            </ul>
+        </nav>
+       <div id="hero">
+            <img src="multimedia/logocrispetas.png" alt="logodecrispetas">
+            <h2>!Peliculas Gratis!</h2>
+            <h1>Tu sitio web para disfrutar de peliculas o series desde la comodidad de tu casa. </h1>
+            <a href="#planes"><button class="btn">empezar a ver</button></a>
+       </div>
+    </header>
+    <!-- secciones principales del sitio -->
+    <main>
+        <section id="planes">
+            <h2>TOP 5</h2>
+            <h3>peliculas más esperadas y mejor calificadas</h3>
+            <div class="wrapper">
+                <div class="container">
+                    <input type="radio" name="slide" id="c1" checked>
+                    <label for="c1" class="card">
+                        <div class="row">
+                            <div class="icon">1</div>
+                            <div class="description">
+                                <h4>VENOM THE LAST DANCE</h4>
+                                <h5>
+                                    Fecha de estreno: 24 de octubre de 2024 (Colombia) <br>
+                                    Directora: Kelly Marcel
+                                </h5>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c2" >
+                    <label for="c2" class="card">
+                        <div class="row">
+                            <div class="icon">2</div>
+                            <div class="description">
+                                <h4>TERRIFIER 3</h4>
+                                <h5>
+                                    Fecha de estreno: 31 de octubre de 2024 (Colombia) <br>
+                                    Director: Damien Leone
+
+                                </h5>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c3" >
+                    <label for="c3" class="card">
+                        <div class="row">
+                            <div class="icon">3</div>
+                            <div class="description">
+                                <h4>ROBOT SALVAJE</h4>
+                                <h5>Fecha de estreno: 10 de octubre de 2024 (Colombia) <br>
+                                    Director: Chris Sanders <br>
+                                 </h5>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c4" >
+                    <label for="c4" class="card">
+                        <div class="row">
+                            <div class="icon">4</div>
+                            <div class="description">
+                                <h4>Captain America: Brave New World</h4>
+                                <h5>
+                                    Fecha de estreno: 14 de febrero de 2025 (Estados Unidos) <br>
+                                    Director: Julius Onah
+
+                                </h5>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c5">
+                    <label for="c5" class="card">
+                        <div class="row">
+                            <div class="icon">5</div>
+                            <div class="description">
+                                <h4>DEADPOOL AND WOLVERINE</h4>
+                                <h5>
+                                    Fecha de estreno: 25 de julio de 2024 (Colombia) <br>
+                                    Director: Shawn Levy
+                                </h5>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </section>
+         <!-- secciones de pelis -->
+        <section id="destinos">
+            <h2>PELICULAS TAQUILLERAS</h2>
+            <div class="fila">
+                <article>
+                    <img src="multimedia/intensamente2.png" alt="cartagena">
+                    <h3>Intensamente 2</h3>
+                </article>
+                <article>
+                    <img src="multimedia/dune 2.png" alt="cartagena">
+                    <h3>Dune 2</h3>
+                </article>
+                <article>
+                    <img src="multimedia/godzila.png" alt="cartagena">
+                    <h3>Godzilla vs Kong</h3>
+                </article>
+                <article>
+                    <img src="multimedia/mivillano.png" alt="cartagena">
+                    <h3>Mi villano favorito 4</h3>
+                </article>
+            </div>
+            <div class="fila">
+                <article>
+                    <img src="multimedia/kungfu4.png" alt="cartagena">
+                    <h3>Kung fu panda 4</h3>
+                </article>
+                <article>
+                    <img src="multimedia/alien.png" alt="cartagena">
+                    <h3>Alien Romulus</h3>
+                </article>
+                <article>
+                    <img src="multimedia/bit.png" alt="cartagena">
+                    <h3>Beetlejuice 2</h3>
+                </article>
+                <article>
+                    <img src="multimedia/joker.png" alt="cartagena">
+                    <h3>Joker Folie a Deux</h3>
+                </article>
+            </div>
+        </section>
+         <!-- seccion de series -->
+        <section id="series">
+            <h2>Series Populares</h2>
+            <div class="series-grid">
+                <!-- Serie 1 -->
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="multimedia/strange.jpg" alt="strange">
+                    </div>
+                    <div class="series-info">
+                        <h3 class="series-title">Stranger Things</h3>
+                        <p class="series-year">Año: 2016</p>
+                        <p class="series-genre">Género: Ciencia Ficción, Misterio</p>
+                        <p class="series-description">
+                            En Hawkins, Indiana, un grupo de amigos se enfrenta a fuerzas sobrenaturales cuando un niño desaparece misteriosamente.
+                        </p>
+                    </div>
+                </div>
+                <!-- Serie 2 -->
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="multimedia/braking.jpg" alt="Breaking">
+                    </div>
+                    <div class="series-info">
+                        <h3 class="series-title">Breaking Bad</h3>
+                        <p class="series-year">Año: 2008</p>
+                        <p class="series-genre">Género: Drama, Crimen</p>
+                        <p class="series-description">
+                            Un profesor de química con cáncer terminal decide fabricar metanfetaminas para asegurar el futuro financiero de su familia.
+                        </p>
+                    </div>
+                </div>
+                <!-- Serie 3 -->
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="multimedia/gameofthrones.jpg" alt="Breaking">
+                    </div>
+                    <div class="series-info">
+                        <h3 class="series-title">Game of Thrones</h3>
+                        <p class="series-year">Año: 2011</p>
+                        <p class="series-genre">Género: Fantasía, Drama</p>
+                        <p class="series-description">
+                            En los Siete Reinos de Westeros, varias casas nobles luchan por el control del Trono de Hierro.
+                        </p>
+                    </div>
+                </div>
+                <!-- Serie 4 -->
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="multimedia/themandalorian.webp" alt="Breaking">
+                    </div>
+                    <div class="series-info">
+                        <h3 class="series-title">The Mandalorian</h3>
+                        <p class="series-year">Año: 2019</p>
+                        <p class="series-genre">Género: Ciencia Ficción, Aventura</p>
+                        <p class="series-description">
+                            Un cazarrecompensas se aventura en los confines de la galaxia para proteger a una criatura.
+                        </p>
+                    </div>
+                </div>
+                <!-- Serie 5 -->
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="multimedia/the witcher.jpg" alt="Breaking">
+                    </div>
+                    <div class="series-info">
+                        <h3 class="series-title">The Witcher</h3>
+                        <p class="series-year">Año: 2019</p>
+                        <p class="series-genre">Género: Fantasía, Aventura</p>
+                        <p class="series-description">
+                             un cazador de monstruos, lucha por encontrar su lugar en un mundo en el que las personas a menudo son más malvadas que las bestias.
+                        </p>
+                    </div>
+                </div>
+                <!-- Serie 6 -->
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="multimedia/la casa de papel.jpeg" alt="Breaking">
+                    </div>
+                    <div class="series-info">
+                        <h3 class="series-title">La Casa de Papel</h3>
+                        <p class="series-year">Año: 2017</p>
+                        <p class="series-genre">Género: Suspenso, Crimen</p>
+                        <p class="series-description">
+                            Un grupo de ladrones, liderados por un hombre conocido como "El Profesor", organiza un ambicioso atraco a la Fábrica Nacional de Moneda y Timbre de España.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- seccion del filtro-->
+        <section id="filtro">
+            <h2>FILTRAR</h2>
+            <p>
+                Filtra por nombres, géneros o tipo de tus películas, series o animes favoritos <br>
+                Encuentra lo que buscas de manera más fácil y rápida
+            </p>
+            <form action="#">
+                <div class="fila">
+                    <select id="tipo">
+                        <option value="">Tipo</option>
+                        <option value="pelicula">Película</option>
+                        <option value="serie">Serie</option>
+                        <option value="anime">Anime</option>
+                    </select>
+                </div>
+                <div class="fila">
+                    <select id="genero">
+                        <option value="">Género</option>
+                        <option value="accion">Acción</option>
+                        <option value="aventura">Aventura</option>
+                        <option value="comedia">Comedia</option>
+                        <option value="drama">Drama</option>
+                        <option value="fantasia">Fantasía</option>
+                        <option value="horror">Horror</option>
+                        <option value="misterio">Misterio</option>
+                        <option value="romance">Romance</option>
+                        <option value="ciencia_ficcion">Ciencia Ficción</option>
+                        <option value="thriller">Thriller</option>
+                    </select>
+                </div>
+                <button type="submit">FILTRAR</button>
+            </form>
+        </section>
+    </main>
+    <!-- pie de pagina  -->
+    <footer>
+        <p>
+            © Todos los derechos reservados <br>
+            ERICK ROMERO
+        </p>
+        <P>ADSO:2904876</P>
+    </footer>
+    
+</body>
+</html>
